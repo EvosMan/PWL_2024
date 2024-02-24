@@ -107,7 +107,11 @@ use App\Http\Controllers\PhotoController;
         Route::view('/welcome', 'welcome');
         Route::view('/welcome', 'welcome', ['name' => 'Taylor']);
 
+//Praktikum View
+        Route::get('/greeting', [WelcomeController::class,'greeting']);
 
+
+//Praktikum View
 
 
 
